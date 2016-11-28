@@ -1,0 +1,27 @@
+{
+  "name": "Brooksource Code Challenge",
+  "version": "1.0.0",
+  "description": "node.js competency check",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/ArtyEmsee/BrooksourceCodeChallenge.git",
+    "type": "git"
+  },
+  "author": "ArtyEmsee",
+  "license": "MIT",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "server": "node server/server.js",
+    "server:watch": "nodemon server/server.js"
+  },
+  "engines": {
+    "node": "7.0.0"
+  },
+  "dependencies": {
+    "nodemon": "^1.11.0",
+    "react": "^15.3.2"
+  },
+  "devDependencies": {
+  }
+}
