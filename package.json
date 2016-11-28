@@ -10,8 +10,6 @@
   "author": "ArtyEmsee",
   "license": "MIT",
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest",
     "server": "node server/server.js",
     "server:watch": "nodemon server/server.js"
   },
